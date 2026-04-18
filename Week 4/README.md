@@ -24,26 +24,3 @@ Covers advanced Pandas operations using the **Stack Overflow Developer Survey 20
 | `so_survey_2019.pdf` | Original survey instrument |
 
 > Source: [Stack Overflow Insights](https://insights.stackoverflow.com/survey/2019) — licensed under [ODbL](http://opendatacommons.org/licenses/odbl/1.0/)
-
-## How to Run
-
-```bash
-pip install pandas openpyxl
-jupyter notebook Pandas_2.ipynb
-```
-
-## What to Upload (to GitHub)
-
-✅ **Upload these:**
-- `Pandas_2.ipynb` — the solved notebook
-- `survey_results_schema.csv` — small schema file (~10 KB)
-- `README.md` — this file
-- `.gitignore`
-
-❌ **Do NOT upload these** (too large / unnecessary):
-- `survey_results_public.csv` — ~187 MB, way too large for GitHub
-- `stack-overflow-developer-survey-2019.zip` — ~18 MB zip archive
-- `so_survey_2019.pdf` — survey PDF (optional, not needed)
-- `My_excel_file.xlsx` — generated output file
-- `__MACOSX/` — macOS metadata folder
-- `README_2019.txt` — original dataset readme (info already in this README)
